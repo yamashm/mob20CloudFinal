@@ -45,6 +45,12 @@ public class ContatoService {
 	}
 
 	public String atualizar(Contato contato) {
-		return repo.edit(contato);
+		try
+		{
+			return repo.edit(contato);
+		}
+		catch (Exception e) {
+			throw new ObjectNotFoundException("Contato não encontrado");
+		}
 	}
 }

@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.fiap</groupId>
 	<artifactId>mob20cloudfinal</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>mob20cloudfinal</name>
 	<packaging>war</packaging>
 	<description>Trabalho final de Cloud do 20MOB</description>

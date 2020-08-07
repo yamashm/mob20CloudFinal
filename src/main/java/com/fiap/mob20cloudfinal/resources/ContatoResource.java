@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fiap.mob20cloudfinal.domain.Contato;
-import com.fiap.mob20cloudfinal.repositories.ContatoRepository;
 import com.fiap.mob20cloudfinal.services.ContatoService;
 
 @RestController
