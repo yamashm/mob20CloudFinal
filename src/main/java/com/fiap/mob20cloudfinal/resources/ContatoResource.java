@@ -58,7 +58,7 @@ public class ContatoResource {
          return ResponseEntity.ok().body(s);
     }
     
-    @DeleteMapping("/deleta")
+    @DeleteMapping("/deleta/{id}")
     public ResponseEntity<String> deletaPorId(@PathVariable String id) {
          String s = service.deletaPorId(id);
          return ResponseEntity.ok().body(s);
