@@ -16,4 +16,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/mob20cloudfinal-1.0.war
+    - mob20cloudfinal-1.0.war
