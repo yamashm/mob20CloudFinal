@@ -14,6 +14,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - mv target/*.war mob20cloudfinal-1.0.war
 artifacts:
   files:
-    - target/mob20cloudfinal-1.0.war
+    - mob20cloudfinal-1.0.war
